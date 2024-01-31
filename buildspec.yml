@@ -1,0 +1,32 @@
+version: 0.2
+name: production
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 18
+    commands:
+      - echo Installing
+  pre_build:
+    commands:
+      - echo Installing source NPM dependencies.
+
+  build:
+    commands:
+      - ls -la
+      - npm config set @apf:registry=http://35.169.115.77:4873/
+      - npm install
+      - npm run build
+      - ls -la
+     # - aws s3api put-object --bucket brikcase --key hero-brik/
+      # - aws s3 cp --recursive build/ s3://brikcase/hero-brik/
+   #   - aws s3api put-object --bucket apf-hero-brik --key hero-brik2/
+      - aws s3 cp --recursive build/ s3://brikcase/
+      # - aws s3 cp --recursive build/ s3://apf-hero-brik/hero-brik/
+      # - aws s3 cp --recursive build/ s3://apf-hero-brik/
+post_build:
+  commands:
+    - echo Build completed on `date`
+artifacts:
+  files:
+    - "*/*"
