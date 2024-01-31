@@ -1,0 +1,6 @@
+{
+  "root": true,
+  "prePublish": [
+    "npm run eslint"
+  ]
+}

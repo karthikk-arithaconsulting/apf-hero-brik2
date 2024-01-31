@@ -1,0 +1,36 @@
+.hero-brick-container{
+    position: relative;
+}
+
+.HeroImageDiv{
+    width: 100%;
+    height: 500px;
+}
+
+.hero-content-container{
+    position: absolute !important;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.hero-content-container{
+    width: 80%;
+    height:80%;
+    /* border: 2px solid black; */
+}
+
+.hero-title{
+    letter-spacing: 25px;
+}
+.hero-subtitle-one{
+    letter-spacing: 3px;
+}
+
+.Parent-Button{
+    position: absolute !important;
+    top: 70%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+

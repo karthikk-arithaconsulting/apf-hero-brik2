@@ -1,0 +1,125 @@
+{
+  "brikId": "",
+  "brikName": "",
+  "editorId": "",
+  "version": "*",
+  "editable": true,
+  "style": {
+    "font": {
+      "family": "",
+      "size": "",
+      "style": "",
+      "color": "",
+      "weight": ""
+    },
+    "backgroundColor": "",
+    "color": ""
+  },
+  "data": [
+    {
+      "content": {
+        "value": "",
+        "label": "",
+        "type": "image",
+        "for": "background",
+        "link": "https://cdn.pixabay.com/photo/2013/09/19/16/46/sky-183872_1280.jpg"
+      },
+      "style": {
+        "font": {
+          "family": "",
+          "size": "",
+          "style": "",
+          "color": "",
+          "weight": ""
+        },
+        "backgroundColor": ""
+      },
+      "editable": true,
+      "display": "block"
+    },
+    {
+      "content": {
+        "value": "AMBITION IS THE FIRST STEP TOWARD",
+        "label": "",
+        "type": "textOne",
+        "for": "",
+        "link": ""
+      },
+      "style": {
+        "font": {
+          "family": "",
+          "size": "21",
+          "style": "italic",
+          "color": "black",
+          "weight": "500"
+        },
+        "backgroundColor": ""
+      },
+      "editable": true,
+      "display": "block"
+    },
+    {
+      "content": {
+        "value": "ARITHA",
+        "label": "",
+        "type": "title",
+        "for": "",
+        "link": ""
+      },
+      "style": {
+        "font": {
+          "family": "",
+          "size": "120",
+          "style": "",
+          "color": "black",
+          "weight": "900"
+        },
+        "backgroundColor": ""
+      },
+      "editable": true,
+      "display": "block"
+    },
+    {
+      "content": {
+        "value": "Now Available for Online Coaching",
+        "label": "",
+        "type": "textTwo",
+        "for": "",
+        "link": ""
+      },
+      "style": {
+        "font": {
+          "family": "",
+          "size": "30",
+          "style": "",
+          "color": "black",
+          "weight": ""
+        },
+        "backgroundColor": ""
+      },
+      "editable": true,
+      "display": "block"
+    },
+    {
+      "content": {
+        "value": "Learn More",
+        "label": "",
+        "type": "button",
+        "for": "",
+        "link": ""
+      },
+      "style": {
+        "font": {
+          "family": "",
+          "size": "xl",
+          "style": "",
+          "color": "white",
+          "weight": ""
+        },
+        "backgroundColor": "black"
+      },
+      "editable": true,
+      "display": "block"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "ESNext",
+    "jsx": "react",
+    "noEmit": false,
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "outDir": "dist",
+    "baseUrl": "."
+  },
+  "exclude": ["node_modules", "dist"],
+  "include": ["./src/App.jsx", "package.json"]
+}
