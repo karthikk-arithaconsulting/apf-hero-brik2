@@ -19,10 +19,11 @@
     {
       "content": {
         "value": "",
-        "label": "",
-        "type": "image",
+        "label": "Background Image",
+        "type": "img",
         "for": "background",
-        "link": "https://cdn.pixabay.com/photo/2013/09/19/16/46/sky-183872_1280.jpg"
+        "src": "https://cdn.pixabay.com/photo/2013/09/19/16/46/sky-183872_1280.jpg",
+        "link": ""
       },
       "style": {
         "font": {
@@ -40,9 +41,9 @@
     {
       "content": {
         "value": "AMBITION IS THE FIRST STEP TOWARD",
-        "label": "",
-        "type": "textOne",
-        "for": "",
+        "label": "Sub Text",
+        "type": "subtext",
+        "for": "subtext-a",
         "link": ""
       },
       "style": {
@@ -61,15 +62,15 @@
     {
       "content": {
         "value": "ARITHA",
-        "label": "",
+        "label": "Main Title",
         "type": "title",
-        "for": "",
+        "for": "Main Title",
         "link": ""
       },
       "style": {
         "font": {
           "family": "",
-          "size": "120",
+          "size": "70",
           "style": "",
           "color": "black",
           "weight": "900"
@@ -82,9 +83,9 @@
     {
       "content": {
         "value": "Now Available for Online Coaching",
-        "label": "",
-        "type": "textTwo",
-        "for": "",
+        "label": "Sub text",
+        "type": "subtext",
+        "for": "subtext-b",
         "link": ""
       },
       "style": {
@@ -103,7 +104,7 @@
     {
       "content": {
         "value": "Learn More",
-        "label": "",
+        "label": "Button",
         "type": "button",
         "for": "",
         "link": ""
@@ -116,7 +117,9 @@
           "color": "white",
           "weight": ""
         },
-        "backgroundColor": "black"
+        "backgroundColor": "black",
+        "width":"",
+        "height":""
       },
       "editable": true,
       "display": "block"
