@@ -12,7 +12,7 @@
       "color": "",
       "weight": ""
     },
-    "backgroundColor": "",
+    "backgroundColor": "#f5f3f4",
     "color": ""
   },
   "data": [
@@ -22,7 +22,7 @@
         "label": "Background Image",
         "type": "img",
         "for": "background",
-        "src": "https://cdn.pixabay.com/photo/2013/09/19/16/46/sky-183872_1280.jpg",
+        "src": "https://images.pexels.com/photos/316466/pexels-photo-316466.jpeg?auto=compress&cs=tinysrgb&w=600",
         "link": ""
       },
       "style": {
@@ -36,32 +36,35 @@
         "backgroundColor": ""
       },
       "editable": true,
-      "display": "block"
+      "display": "block",
+      "isHighlighted": false
     },
     {
       "content": {
-        "value": "AMBITION IS THE FIRST STEP TOWARD",
-        "label": "Sub Text",
-        "type": "subtext",
-        "for": "subtext-a",
-        "link": ""
+        "value": "",
+        "label": "brikImage",
+        "type": "img",
+        "for": "brikImage",
+        "link": "",
+        "src": "https://images.pexels.com/photos/245032/pexels-photo-245032.jpeg?auto=compress&cs=tinysrgb&w=600"
       },
       "style": {
         "font": {
           "family": "",
-          "size": "21",
-          "style": "italic",
-          "color": "black",
-          "weight": "500"
+          "size": "",
+          "style": "",
+          "color": "",
+          "weight": ""
         },
         "backgroundColor": ""
       },
       "editable": true,
-      "display": "block"
+      "display": "none",
+      "isHighlighted": false
     },
     {
       "content": {
-        "value": "ARITHA",
+        "value": "How To Create a Stunning Website Hero Image",
         "label": "Main Title",
         "type": "title",
         "for": "Main Title",
@@ -70,19 +73,20 @@
       "style": {
         "font": {
           "family": "",
-          "size": "70",
+          "size": "40",
           "style": "",
           "color": "black",
-          "weight": "900"
+          "weight": "500"
         },
         "backgroundColor": ""
       },
       "editable": true,
-      "display": "block"
+      "display": "block",
+      "isHighlighted": false
     },
     {
       "content": {
-        "value": "Now Available for Online Coaching",
+        "value": "A hero image takes the biggest of the real estate space on your homepage, making them crucial to the first impression of your brand. ",
         "label": "Sub text",
         "type": "subtext",
         "for": "subtext-b",
@@ -91,15 +95,17 @@
       "style": {
         "font": {
           "family": "",
-          "size": "30",
+          "size": "26",
           "style": "",
           "color": "black",
           "weight": ""
         },
-        "backgroundColor": ""
-      },
+        "backgroundColor": "",
+        "height":""
+        },
       "editable": true,
-      "display": "block"
+      "display": "block",
+      "isHighlighted": false
     },
     {
       "content": {
@@ -107,7 +113,8 @@
         "label": "Button",
         "type": "button",
         "for": "",
-        "link": ""
+        "link": "",
+        "target": "_self"
       },
       "style": {
         "font": {
@@ -118,11 +125,13 @@
           "weight": ""
         },
         "backgroundColor": "black",
-        "width":"",
-        "height":""
+        "width": "",
+        "height": "",
+        "radius":"20px"
       },
       "editable": true,
-      "display": "block"
+      "display": "block",
+      "isHighlighted": true
     }
   ]
 }

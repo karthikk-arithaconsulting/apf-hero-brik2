@@ -1,0 +1,135 @@
+{
+    "brikId": "",
+    "brikName": "",
+    "editorId": "",
+    "version": "*",
+    "editable": true,
+    "style": {
+      "font": {
+        "family": "",
+        "size": "",
+        "style": "",
+        "color": "",
+        "weight": ""
+      },
+      "backgroundColor": "#f5f3f4",
+      "color": ""
+    },
+    "data": [
+      {
+        "content": {
+          "value": "",
+          "label": "Background Image",
+          "type": "img",
+          "for": "background",
+          "src": "https://images.pexels.com/photos/316466/pexels-photo-316466.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "link": ""
+        },
+        "style": {
+          "font": {
+            "family": "",
+            "size": "",
+            "style": "",
+            "color": "",
+            "weight": ""
+          },
+          "backgroundColor": ""
+        },
+        "editable": true,
+        "display": "block",
+        "isHighlighted": false
+      },
+      {
+        "content": {
+          "value": "",
+          "label": "brikImage",
+          "type": "img",
+          "for": "brikImage",
+          "link": "",
+          "src": "https://images.pexels.com/photos/245032/pexels-photo-245032.jpeg?auto=compress&cs=tinysrgb&w=600"
+        },
+        "style": {
+          "font": {
+            "family": "",
+            "size": "",
+            "style": "",
+            "color": "",
+            "weight": ""
+          },
+          "backgroundColor": ""
+        },
+        "editable": true,
+        "display": "none",
+        "isHighlighted": false
+      },
+      {
+        "content": {
+          "value": "How To Create a Stunning Website Hero Image",
+          "label": "Main Title",
+          "type": "title",
+          "for": "Main Title",
+          "link": ""
+        },
+        "style": {
+          "font": {
+            "family": "",
+            "size": "40",
+            "style": "",
+            "color": "black",
+            "weight": "500"
+          },
+          "backgroundColor": ""
+        },
+        "editable": true,
+        "display": "block",
+        "isHighlighted": false
+      },
+      {
+        "content": {
+          "value": "A hero image takes the biggest of the real estate space on your homepage, making them crucial to the first impression of your brand. ",
+          "label": "Sub text",
+          "type": "subtext",
+          "for": "subtext-b",
+          "link": ""
+        },
+        "style": {
+          "font": {
+            "family": "",
+            "size": "26",
+            "style": "",
+            "color": "black",
+            "weight": ""
+          },
+          "backgroundColor": ""
+        },
+        "editable": true,
+        "display": "block",
+        "isHighlighted": false
+      },
+      {
+        "content": {
+          "value": "Learn More",
+          "label": "Button",
+          "type": "button",
+          "for": "",
+          "link": "",
+          "target": "_self"
+        },
+        "style": {
+          "font": {
+            "family": "",
+            "size": "xl",
+            "style": "",
+            "color": "white",
+            "weight": ""
+          },
+          "backgroundColor": "black",
+          "width": "",
+          "height": ""
+        },
+        "editable": true,
+        "display": "block",
+        "isHighlighted": true
+      }
+    ]
+  }

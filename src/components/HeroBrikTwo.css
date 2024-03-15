@@ -1,10 +1,114 @@
- .hero-brick-container{
+ 
+ .hero-brik-container{
+    height: 650px;
+    width: auto;
+    /* border: 2px solid black; */
+    position: relative;
+ }
+ 
+ .hero-image-container{
+   height: 100%;
+   width: 100%;
+   position: absolute;
+}
+ 
+ .HeroImageDiv{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+ }
+
+ .hero-content-container{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+ }
+
+ .hero-content-container-1{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding-top: 80px;
+    gap: 12px;
+ }
+
+ .hero-title{
+    width:80%;
+ }
+
+ .hero-subtitle{
+    width:80%;
+    padding-bottom: 10px;
+ }
+ .hero-brikImage-container{
+    height: 300px;
+    width: 600px;
+ }
+ .hero-brikImage-container-1{
+    height: 400px;
+    width: 600px;
+    margin-top: 40px;
+ }
+ .brikImageDiv{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    mix-blend-mode:multiply;
+    background-color: transparent; 
+    animation: image 3s forwards;
+ }
+ .Parent-Button{
+    padding-bottom: 40px;
+    animation: 2s button forwards;
+ }
+
+.title-tag{
+    animation: title 2s ease;
+}
+.hero-subtitle-two{
+    animation: text 2s ease;
+}
+ @keyframes title {
+    from { transform: translateY(-100%); }
+    to { transform: translateY(0); }
+ }
+ @keyframes text {
+    from { transform: translateY(-100%); }
+    to { transform: translateY(0); }
+ }
+ @keyframes image {
+    from {
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+ }
+
+ @keyframes button {
+    0% { transform: translateY(-100%); }
+    10%{opacity: 0;}
+    80%{opacity: 1;}
+    100% { transform: translateY(0); }
+ }
+
+ /* .hero-brick-container{
     height: 600px;
     width:auto;
     position: relative;
     display: flex;
     justify-content: center;
 }
+
 
 .hero-image-container{
     position: absolute;
@@ -39,10 +143,10 @@
 }
 .hero-subtitle-one{
     letter-spacing: 3px;
-}
+} */
 
 /* mobile */
-@media screen and (min-width:300px) and (max-width:576px){
+/* @media screen and (min-width:300px) and (max-width:576px){
     .hero-brick-container{
         height: 600px;
         width:100vw;
@@ -81,4 +185,4 @@
     .hero-subtitle-one{
         letter-spacing: 3px;
     }
-}
+} */

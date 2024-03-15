@@ -1,0 +1,134 @@
+{
+    "brikId": "",
+    "brikName": "",
+    "editorId": "",
+    "version": "*",
+    "editable": true,
+    "style": {
+      "font": {
+        "family": "",
+        "size": "",
+        "style": "",
+        "color": "",
+        "weight": ""
+      },
+      "backgroundColor": "#f8f9fa",
+      "color": ""
+    },
+    "data": [
+      {
+        "content": {
+          "value": "",
+          "label": "Background Image",
+          "type": "img",
+          "for": "background",
+          "src": "",
+          "link": ""
+        },
+        "style": {
+          "font": {
+            "family": "",
+            "size": "",
+            "style": "",
+            "color": "",
+            "weight": ""
+          },
+          "backgroundColor": ""
+        },
+        "editable": true,
+        "display": "none",
+        "isHighlighted": false
+      },
+      {
+        "content": {
+          "value": "",
+          "label": "brikImage",
+          "type": "img",
+          "for": "brikImage",
+          "link": "",
+          "src": "https://img.freepik.com/premium-vector/programmer-coder-concentrated-working-project-developing-programming-coding-technologies_569013-338.jpg?size=626&ext=jpg&ga=GA1.1.234094234.1706612419&semt=ais"
+        },
+        "style": {
+          "font": {
+            "family": "",
+            "size": "",
+            "style": "",
+            "color": "",
+            "weight": ""
+          },
+          "backgroundColor": ""
+        },
+        "editable": true,
+        "display": "block",
+        "isHighlighted": false
+      },
+      {
+        "content": {
+          "value": "How To Create a Stunning Website Hero Image",
+          "label": "Main Title",
+          "type": "title",
+          "for": "Main Title",
+          "link": ""
+        },
+        "style": {
+          "font": {
+            "family": "",
+            "size": "40",
+            "style": "",
+            "color": "black",
+            "weight": "500"
+          },
+          "backgroundColor": ""
+        },
+        "editable": true,
+        "display": "block"
+      },
+      {
+        "content": {
+          "value": "A hero image takes the biggest of the real estate space on your homepage, making them crucial to the first impression of your brand. Learn about how to create a stunning hero image for your website.",
+          "label": "Sub text",
+          "type": "subtext",
+          "for": "subtext-b",
+          "link": ""
+        },
+        "style": {
+          "font": {
+            "family": "",
+            "size": "20px",
+            "style": "",
+            "color": "black",
+            "weight": ""
+          },
+          "backgroundColor": ""
+        },
+        "editable": true,
+        "display": "block",
+        "isHighlighted": false
+      },
+      {
+        "content": {
+          "value": "Learn More",
+          "label": "Button",
+          "type": "button",
+          "for": "",
+          "link": "",
+          "target": "_self"
+        },
+        "style": {
+          "font": {
+            "family": "",
+            "size": "xl",
+            "style": "",
+            "color": "white",
+            "weight": ""
+          },
+          "backgroundColor": "black",
+          "width": "",
+          "height": ""
+        },
+        "editable": true,
+        "display": "none",
+        "isHighlighted": true
+      }
+    ]
+  }
